@@ -22,6 +22,8 @@
 		17A97EB918EACA1B0075ABB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A97E9818EACA1B0075ABB3 /* UIKit.framework */; };
 		17A97EC118EACA1B0075ABB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17A97EBF18EACA1B0075ABB3 /* InfoPlist.strings */; };
 		17A97EC318EACA1B0075ABB3 /* File_read_delete_writeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A97EC218EACA1B0075ABB3 /* File_read_delete_writeTests.m */; };
+		17A97ECD18EACCAC0075ABB3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A97ECC18EACCAC0075ABB3 /* libsqlite3.0.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		17A97ECF18EACCB60075ABB3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A97ECE18EACCB60075ABB3 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		17A97EBE18EACA1B0075ABB3 /* File_read_delete_writeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "File_read_delete_writeTests-Info.plist"; sourceTree = "<group>"; };
 		17A97EC018EACA1B0075ABB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17A97EC218EACA1B0075ABB3 /* File_read_delete_writeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = File_read_delete_writeTests.m; sourceTree = "<group>"; };
+		17A97ECC18EACCAC0075ABB3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		17A97ECE18EACCB60075ABB3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A97ECF18EACCB60075ABB3 /* libsqlite3.dylib in Frameworks */,
+				17A97ECD18EACCAC0075ABB3 /* libsqlite3.0.dylib in Frameworks */,
 				17A97E9718EACA1B0075ABB3 /* CoreGraphics.framework in Frameworks */,
 				17A97E9918EACA1B0075ABB3 /* UIKit.framework in Frameworks */,
 				17A97E9518EACA1B0075ABB3 /* Foundation.framework in Frameworks */,
@@ -103,6 +109,8 @@
 		17A97E9318EACA1B0075ABB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17A97ECE18EACCB60075ABB3 /* libsqlite3.dylib */,
+				17A97ECC18EACCAC0075ABB3 /* libsqlite3.0.dylib */,
 				17A97E9418EACA1B0075ABB3 /* Foundation.framework */,
 				17A97E9618EACA1B0075ABB3 /* CoreGraphics.framework */,
 				17A97E9818EACA1B0075ABB3 /* UIKit.framework */,
