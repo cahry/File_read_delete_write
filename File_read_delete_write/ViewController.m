@@ -7,11 +7,6 @@
 //
 
 #import "ViewController.h"
-#define DBNAME    @"personinfo.sqlite"
-#define NAME      @"name"
-#define AGE       @"age"
-#define ADDRESS   @"address"
-#define TABLENAME @"PERSONINFO"
 
 @interface ViewController ()
 
@@ -63,15 +58,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void)execSql:(NSString *)sql
-{
-    char *err;
-    if (sqlite3_exec(db, [sql UTF8String], NULL, NULL, &err) != SQLITE_OK) {
-        sqlite3_close(db);
-        NSLog(@"資料庫操作失败!");
-    }
 }
 - (IBAction)saveData:(id)sender {
     sqlite3_stmt    *statement;

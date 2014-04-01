@@ -54,7 +54,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qop-uf-A84">
-                                <rect key="frame" x="139" y="203" width="42" height="21"/>
+                                <rect key="frame" x="20" y="203" width="280" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -84,7 +84,6 @@
                     </view>
                     <connections>
                         <outlet property="address" destination="eTB-wL-FP7" id="BUN-L6-Ybe"/>
-                        <outlet property="findContact" destination="vzD-TQ-Q0Z" id="zJy-8r-0FX"/>
                         <outlet property="name" destination="p3n-az-XzQ" id="IVT-D0-Xtx"/>
                         <outlet property="phone" destination="X3U-IZ-IvF" id="DYQ-Ur-hcZ"/>
                         <outlet property="status" destination="qop-uf-A84" id="BsA-dX-Hx3"/>
